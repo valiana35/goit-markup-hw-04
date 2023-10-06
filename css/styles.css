@@ -96,9 +96,9 @@ color: var(--OCEAN, #404BBF);
 background-color: var(--NAVY-BLUE, #2E2F42);
 padding: 188px 0;
 background-image: linear-gradient(
-  lightgray,
-  lightgray),
-  url(../images/people-office.1.jpg);
+  rgba(46, 47, 66, 0.70),
+  rgba(46, 47, 66, 0.70)),
+  url(../images/people-office\ 1.jpg);
 }
 .solutions-title {
 color: var(--WHITE, #FFF);
