@@ -70,10 +70,7 @@ letter-spacing: 0.02em;
 padding: 24px 0;
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header-menu-link current {
-  color: #404BBF;
-}
-.header-menu-link current::after {
+.header-menu-link::after {
   content: '';
   position: absolute;
   left: 0;
@@ -83,7 +80,12 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: #404bbf;
   border-radius: 2px;
 }
-.header-menu-link::after {
+.header-menu-link-current {
+  color: #404BBF;
+  padding: 24px 0;
+  position: relative;
+}
+.header-menu-link-current::after {
   content: '';
   position: absolute;
   left: 0;
